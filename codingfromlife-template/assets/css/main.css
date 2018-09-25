@@ -190,7 +190,16 @@ body {
 	position: absolute;
 	background: darkred;
 }
-	
+
+#yes {width: 45px;
+      height: 70px;
+      skew rotate: 50%
+      clip-path: polygon(50% 0%, 61% 35%, 98% 35%, );
+      top: 203px;
+	  left: 690px;
+      background: darkred}
+
+      
 #clip {
 	width: 150px;
 	height: 150px;
@@ -199,6 +208,7 @@ body {
 	top: 203px;
 	left: 690px;
 	position: absolute;
+
 
 	/* uncomment for css transitions */
 	/* transition: all 400ms ease; */
