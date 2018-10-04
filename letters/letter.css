@@ -17,24 +17,23 @@
 .y { width: 90px; }
 
 
-
 /***********************************/
 /**********     A     **************/
 
 #a .leftv {
 	left: 20%;
-	height: 20.0%;
-	top: 60.0%;
+	height: 15.0%;
+	top: 65.0%;
 }
 
 #a .rightv {
 	left: 60.0%;
 	height: 37.5%;
-	top: 42.5%;
+	top: 50%;
 }
 
 #a .tlj {
-    top: 45.0%;
+    top: 50%;
     left: 20.0%;
     transform: scaleX(-1);
 }
@@ -46,7 +45,7 @@
 }
 
 #a .trj {
-    top: 45.0%;
+    top: 50.0%;
     left: 45.0%;
 }
 
@@ -57,7 +56,7 @@
 }
 
 #a .tope {
-	top: 27.5%;
+	top: 35%;
 	left: 45.0%;
 }
 
@@ -251,7 +250,8 @@
     height: 0;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-top: 17.5px solid black;
+    border-top-width: 17.5px;
+    border-top-style: solid;
     background: none;
 }
 
@@ -430,10 +430,6 @@
 	top: 110.0%;
 	left: 25.0%;
 	transform: rotate(180deg) scaleX(-1);
-}
-
-#j {
-    left: -2%;
 }
 
 #j .v {
@@ -1171,4 +1167,691 @@
     top: 82.5%;
     left: 45.0%;
     transform: scaleX(-1) rotate(180deg);
+}
+
+/***********************************/
+/**********     0     **************/
+
+#n0 .leftv {
+    height: 60.0%;
+    top: 20.0%;
+    left: 20.0%;
+}
+
+#n0 .rightv {
+    height: 60.0%;
+    top: 20.0%;
+    left: 60.0%;
+}
+
+#n0 .tlj {
+    top: 5.0%;
+    left: 20.0%;
+    transform: scaleX(-1);
+}
+
+#n0 .blj {
+    top: 80.0%;
+    left: 20.0%;
+    transform: rotate(180deg);
+}
+
+#n0 .trj {
+    top: 5.0%;
+    left: 45.0%;
+}
+
+#n0 .brj {
+    top: 80.0%;
+    left: 45.0%;
+    transform: scaleX(-1) rotate(180deg);
+}
+
+
+/***********************************/
+/**********     1     **************/
+
+#n1 .tope {
+    top: 5.0%;
+    left: 25.0%;
+}
+
+#n1 .cut {
+    top: 90.0%;
+    left: 35%;
+    width: 30%;
+    border-radius: 14.2% 14.2% 14.2% 14.2% / 100% 100% 100% 100%;
+}
+
+#n1 .v {
+    height: 85.0%;
+    left: 40.0%;
+    top: 5.0%;
+    border-radius: 200% 0 0 0 / 29.5% 0 0 0;
+}
+
+/***********************************/
+/**********     2     **************/
+
+#n2 .trj {
+    top: 5.0%;
+    left: 45.0%;
+}
+
+#n2 .tlj {
+    top: 5.0%;
+    left: 20.0%;
+    transform: scaleX(-1);
+}
+
+#n2 .tlf {
+    top: 17.5%;
+    left: 5.0%;
+    transform: rotate(180deg) scaleX(-1);
+}
+
+#n2 .brj {
+    top: 82.5%;
+    left: 45.0%;
+    transform: rotate(180deg) scaleX(-1);
+}
+
+#n2 .blj {
+    top: 80.0%;
+    left: 20.0%;
+    transform: rotate(180deg);
+}
+
+#n2 .blj .main {
+    border-radius: 10.67% 10% 0 0 / 0 20% 0 0;
+}
+
+#n2 .brj .main {
+    border-radius: 10.67% 10% 0 0 / 0 20% 0 0;
+}
+
+#n2 .blf {
+    left: 60%;
+    top: 70%;
+    transform: scaleX(-1);
+
+}
+
+#n2 .topv {
+    top: 20%;
+    left: 60%;
+    height: 20%;
+}
+
+#n2 .botv {
+    top: 75%;
+    left: 20%;
+    height: 5%;
+}
+
+#n2 .midv {
+    top: 40%;
+    left: 40%;
+    height: 35%;
+    transform: skew(-50deg);
+
+}
+
+/***********************************/
+/**********     3     **************/
+
+#n3 .trj {
+    top: 5.0%;
+    left: 45.0%;
+}
+
+#n3 .tlj {
+    top: 5.0%;
+    left: 20.0%;
+    transform: scaleX(-1);
+}
+
+#n3 .tlf {
+    top: 17.5%;
+    left: 5.0%;
+    transform: rotate(180deg) scaleX(-1);
+}
+
+#n3 .brj {
+    top: 80.0%;
+    left: 45.0%;
+    transform: rotate(180deg) scaleX(-1);
+}
+
+#n3 .blj {
+    top: 82.5%;
+    left: 20.0%;
+    transform: rotate(180deg);
+}
+
+#n3 .blf {
+    left: 5%;
+    top: 70%;
+}
+
+#n3 .topv {
+    top: 20%;
+    left: 60%;
+    height: 15%;
+}
+
+#n3 .botv {
+    top: 60%;
+    left: 60%;
+    height: 20%;
+}
+
+#n3 .topm {
+    top: 35%;
+    left: 45%;
+    transform: rotate(180deg) scaleX(-1);
+}
+
+#n3 .botm {
+    top: 45%;
+    left: 45%;
+}
+
+/***********************************/
+/**********     4     **************/
+
+#n4 .rightv {
+    left: 60%;
+    top: 25%;
+    height: 70%;
+    border-radius: 200% 0 0 0 / 75% 0 0 0;
+}
+
+#n4 .cut {
+    width: 70%;
+    height: 7%;
+    top: 70%;
+    left: 20%;
+    border-radius: 5% 5% 5% 5% / 50% 50% 50% 50%;
+}
+
+#n4 .leftv {
+    top: 5%;
+    height: 70%;
+    left: 31%;
+    border-radius: 130% 100% 0% 0% / 200% 200% 0% 0%;
+    transform: skew(-20deg);
+}
+
+/***********************************/
+/**********     5     **************/
+
+
+#n5 .trj {
+    top: 5.0%;
+    left: 40.0%;
+}
+
+#n5 .trj .main {
+    border-radius: 10.67% 10% 0 0 / 0 20% 0 0;
+}
+
+#n5 .trf {
+    top: 17.5%;
+    left: 55.0%;
+    transform: rotate(180deg);
+}
+
+#n5 .brj {
+    top: 80.0%;
+    left: 45.0%;
+    transform: rotate(180deg) scaleX(-1);
+}
+
+#n5 .blj {
+    top: 82.5%;
+    left: 20.0%;
+    transform: rotate(180deg);
+}
+
+#n5 .blf {
+    left: 5%;
+    top: 70%;
+}
+
+#n5 .mid {
+    transform: scaleX(-1);
+    top: 40%;
+    left: 20%;
+}
+
+#n5 .topv {
+    top: 5%;
+    left: 20%;
+    height: 45%;
+    border-radius: 15% 0 0 0 / 20% 0 0 0;
+}
+
+#n5 .mask {
+    background-color: white;
+    height: 10%;
+    width: 25%;
+    top: 48%;
+    left: 15%;
+    position: absolute;
+    transform: rotate(30deg);
+    z-index: 25;
+}
+#n5 .mask2 {
+    background-color: white;
+    height: 10%;
+    width: 15%;
+    top: 48%;
+    left: 32%;
+    position: absolute;
+    transform: rotate(-30deg);
+    z-index: 26;
+}
+
+#n5 .botv {
+    top: 55%;
+    left: 60%;
+    height: 25%;
+}
+
+#n5 .botm {
+    top: 40%;
+    left: 45%;
+}
+
+/***********************************/
+/**********     6    **************/
+
+#n6 .rightv {
+    top: 60.0%;
+    height: 20.0%;
+    left: 60.0%;
+}
+
+#n6 .leftv {
+    top: 20.0%;
+    height: 60.0%;
+    left: 20.0%;
+}
+
+#n6 .tlj {
+    top: 5.0%;
+    left: 20.0%;
+    transform: scaleX(-1);
+}
+
+#n6 .brj {
+    top: 80%;
+    left: 45.0%;
+    transform: scaleX(-1) rotate(180deg);
+}
+
+#n6 .trj {
+    top: 5.0%;
+    left: 44.0%;
+}
+
+#n6 .blj {
+    top: 80.0%;
+    left: 20.0%;
+    transform: rotate(180deg);
+}
+
+#n6 .botf {
+    top: 45.0%;
+    left: 45.0%;
+}
+
+#n6 .botc {
+    left: 59%;
+    top: 17.5%;
+    transform: rotate(180deg);
+}
+
+/***********************************/
+/**********     7     **************/
+
+#n7 .trj {
+    top: 5.0%;
+    left: 45.0%;
+}
+
+#n7 .tlj {
+    top: 5.0%;
+    left: 20.0%;
+    transform: scaleX(-1);
+}
+
+#n7 .tlj .main {
+    border-radius: 10.67% 10% 0 0 / 0 20% 0 0;
+}
+
+#n7 .trj .main {
+    border-radius: 10.67% 10% 0 0 / 0 20% 0 0;
+}
+
+#n7 .tlf {
+    top: 17.5%;
+    left: 5.0%;
+    transform: rotate(180deg) scaleX(-1);
+}
+
+#n7 .topv {
+    top: 20%;
+    left: 52%;
+    height: 60%;
+    transform: skew(-15deg);
+}
+
+#n7 .botv {
+    top: 80%;
+    left: 44%;
+    height: 15%;
+    transform: skew(-2deg);
+}
+
+#n7 .cut7 {
+    width: 55%;
+    height: 10%;
+    top: 50%;
+    left: 30%;
+    border-radius: 10% 10% 10% 10% / 25% 25% 25% 25%;
+    transform: rotate(-10deg);
+}
+
+/***********************************/
+/**********     8     **************/
+
+#n8 .trj {
+    top: 5.0%;
+    left: 45.0%;
+}
+
+#n8 .tlj {
+    top: 5.0%;
+    left: 20.0%;
+    transform: scaleX(-1);
+}
+
+#n8 .tlf {
+    top: 35%;
+    left: 20.0%;
+    transform: rotate(180deg);
+}
+
+#n8 .brj {
+    top: 80.0%;
+    left: 45.0%;
+    transform: rotate(180deg) scaleX(-1);
+}
+
+#n8 .blj {
+    top: 80%;
+    left: 20.0%;
+    transform: rotate(180deg);
+}
+
+#n8 .blf {
+    left: 20%;
+    top: 45%;
+    transform: scaleX(-1);
+}
+
+#n8 .topv {
+    top: 20%;
+    left: 60%;
+    height: 15%;
+}
+
+#n8 .botv {
+    top: 60%;
+    left: 60%;
+    height: 20%;
+}
+
+#n8 .ltopv {
+    top: 20%;
+    left: 20%;
+    height: 15%;
+}
+
+#n8 .lbotv {
+    top: 60%;
+    left: 20%;
+    height: 20%;
+}
+
+#n8 .topm {
+    top: 35%;
+    left: 45%;
+    transform: rotate(180deg) scaleX(-1);
+}
+
+#n8 .botm {
+    top: 45%;
+    left: 45%;
+}
+
+
+/***********************************/
+/**********     9    **************/
+
+#n9 .leftv {
+    top: 20.0%;
+    height: 20.0%;
+    left: 20.0%;
+}
+
+#n9 .rightv {
+    top: 20.0%;
+    height: 60.0%;
+    left: 60.0%;
+}
+
+#n9 .tlj {
+    top: 5.0%;
+    left: 20.0%;
+    transform: scaleX(-1);
+}
+
+#n9 .blj {
+    top: 82.5%;
+    left: 21.0%;
+    transform: rotate(180deg);
+}
+
+#n9 .trj {
+    top: 5.0%;
+    left: 45.0%;
+}
+
+#n9 .brj {
+    top: 80.0%;
+    left: 45.0%;
+    transform: scaleX(-1) rotate(180deg);
+}
+
+#n9 .botf {
+    top: 40.0%;
+    left: 20.0%;
+    transform: rotate(180deg);
+}
+
+#n9 .botc {
+    left: 6%;
+    top: 70%;
+}
+
+/***********************************/
+/**********     !    **************/
+
+#exc .bot {
+    top: 70%;
+    width: 25%;
+    height: 25%;
+    left: 37.5%;
+    border-radius: 200%;
+}
+
+#exc .body {
+    top: 5%;
+    width: 22%;
+    height: 55%;
+    left: 39%;
+    border-radius: 40% 50% 60% 50% / 30% 50% 40% 50%;
+}
+
+/***********************************/
+/**********     '    **************/
+
+#com .body {
+    width: 15%;
+    top: 10%;
+    height: 35%;
+    left: 42.5%;
+    border-radius: 150% 150% 180% 180% / 100% 100% 250% 250%;
+}
+
+#comma .fin {
+    top: 85%;
+    left: 27.5%;
+    transform: scaleX(-1) rotate(180deg);
+    height: 25%;
+}
+
+#comma .top {
+    width: 20%;
+    height: 15%;
+    top: 70%;
+    left: 42.5%;
+    border-radius: 100% 100% 0 0 / 200% 200% 0 0;
+}
+
+/***********************************/
+/**********     ?     **************/
+
+#qm .trj {
+    top: 5.0%;
+    left: 45.0%;
+}
+
+#qm .tlj {
+    top: 5.0%;
+    left: 20.0%;
+    transform: scaleX(-1);
+}
+
+#qm .tlf {
+    top: 17.5%;
+    left: 5.0%;
+    transform: rotate(180deg) scaleX(-1);
+}
+
+
+#qm .topv {
+    top: 20%;
+    left: 60%;
+    height: 15%;
+}
+
+
+#qm .topm {
+    top: 35%;
+    left: 45%;
+    transform: rotate(180deg) scaleX(-1);
+    z-index: 25;
+}
+
+#qm .blf {
+    transform: scaleX(-1) rotate(-10deg);
+    top: 45%;
+    left: 26%;
+}
+
+#qm .dot {
+    top: 75%;
+    left: 30%;
+}
+
+/***********************************/
+/**********     *     **************/
+
+#ast .part {
+    position: absolute;
+    height: 30%; /* 30px */
+    width: 13%; /* 70px */
+    overflow: hidden;
+    top: 10%;
+    left: 45%;
+}
+
+#ast .part .circle {
+    width: 100%;
+    height: 41.67%;
+    border-radius: 400%;
+    z-index: 25;
+}
+
+#ast .part .leg {
+    width: 100%;
+    height: 61.67%;
+    top: 20%;
+}
+
+#ast .part .shad {
+    position: absolute;
+    background-color: white;
+    width: 35%;
+    left: -5%;
+    top: 25%;
+    border-radius: 0 200% 0 0 / 0 200% 0 0;
+    height: 65%;
+}
+
+#ast .part .refl {
+    transform: scaleX(-1);
+    left: 75%;
+}
+
+#ast .p2 {
+    transform: rotate(60deg);
+    top: 18%;
+    left: 57%;
+}
+
+#ast .p4 {
+    transform: rotate(-60deg);
+    top: 18%;
+    left: 34%;
+}
+
+#ast .p3 {
+    transform: rotate(120deg);
+    top: 30%;
+    left: 57%;
+}
+
+#ast .p5 {
+    transform: rotate(-120deg);
+    top: 30%;
+    left: 34%;
+}
+
+#ast .p6 {
+    transform: rotate(-180deg);
+    top: 37%;
+    left: 46%;
+}
+
+#ast .center {
+    width: 17%;
+    height: 17%;
+    border-radius: 100%;
+    top: 30%;
+    left: 44%;
 }
