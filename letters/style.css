@@ -30,10 +30,13 @@ body {
     background: #13b38c;
 }
 
-.quote-wrapper, .stage-wrapper, .bazinga-wrapper {
+.quote-wrapper, .stage-wrapper {
     width: 100%;
     height: 100vh;
 }
+
+.bazinga-wrapper {    width: 121%;
+    height: 96vh;}
 
 .quote {
     width: 960px;
