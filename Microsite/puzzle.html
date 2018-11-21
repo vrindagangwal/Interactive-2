@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Puzzle</title>
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<img class="piece" id="piece-a" src="images/piece-a.png" />
+	<img class="piece" id="piece-b" src="images/piece-b.png" />
+	<img class="piece" id="piece-c" src="images/piece-c.png" /> 
+	<img class="piece" id="piece-d" src="images/piece-d.png" />
+	<img class="piece" id="piece-e" src="images/piece-e.png" />
+	<img class="piece" id="piece-f" src="images/piece-f.png" />
+	<img class="piece" id="piece-g" src="images/piece-g.png" />
+	<div class="container">
+		<div class="media">
+			<div class="dashed puzzle-dashed">
+				<img class="painting" src="images/painting.png" />
+				<div class="puzzle" id="a"></div>
+				<div id="bc" style="display:flex; width:100%">	
+					<div class="puzzle" id="b"></div>
+					<div class="puzzle" id="c"></div>
+				</div>
+				<div class="puzzle" id="d"></div>
+				<div id="ef" style="display:flex; width:100%">	
+					<div class="puzzle" id="e"></div>
+					<div class="puzzle" id="f"></div>
+				</div>
+				<div class="puzzle" id="g"></div>
+				<!-- <img src="eteladnan.png" /> -->
+			</div>
+		</div>
+		<div class="text">
+			<div class="heading"><a href="#">Untitled <span class="font-2004">(2004)</span></a></div>
+			<div class="rect"></div>
+			<div class="content font-index">Bring the pieces together to solve the puzzle and reveal the artwork.</div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/interactjs@1.3/dist/interact.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
