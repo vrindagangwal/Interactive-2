@@ -35,7 +35,7 @@ const puzzle_solved = {
 
 const offsets = {
 	a: {
-		top: -5,
+		top: -20,
 		left: 0
 	},
 	b: {

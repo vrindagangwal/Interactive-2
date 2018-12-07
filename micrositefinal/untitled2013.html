@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Untitled (2013)</title>
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/hover-min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/untitled2013.css">
+</head>
+<body>
+	<div class="wrapper">
+		<img class="piece hvr-buzz-out" id="piece-a" src="images/untitled2013/piece-a.png" />
+		<img class="piece hvr-buzz-out" id="piece-b" src="images/untitled2013/piece-b.png" />
+		<img class="piece hvr-buzz-out" id="piece-c" src="images/untitled2013/piece-c.png" /> 
+		<img class="piece hvr-buzz-out" id="piece-d" src="images/untitled2013/piece-d.png" />
+		<img class="piece hvr-buzz-out" id="piece-e" src="images/untitled2013/piece-e.png" />
+		<img class="piece hvr-buzz-out" id="piece-f" src="images/untitled2013/piece-f.png" />
+		<div class="container">
+			<div class="media">
+				<div class="dashed puzzle-dashed">
+					<img class="painting" src="images/untitled2013/painting.jpg" />
+					<div class="puzzle" id="a"></div>
+					<div id="bcd" style="display:flex; width:100%">	
+						<div class="puzzle" id="b"></div>
+						<div class="puzzle" id="c"></div>
+						<div class="puzzle" id="d"></div>
+					</div>
+					<div id="ef" style="display:flex; width:100%">	
+						<div class="puzzle" id="e"></div>
+						<div class="puzzle" id="f"></div>
+					</div>
+					<div class="puzzle" id="g"></div>
+				</div>
+			</div>
+			<div class="text">
+				<div class="heading"><a href="#">Untitled <span class="font-year">(2013)</span></a></div>
+				<div class="rect"></div>
+				<div class="content font-index">
+					Bring the pieces together to solve the puzzle and reveal the artwork.
+				</div>
+				<div class="hidden-content">
+					Etel Adnan, Untitled, 2013.<br> Oil on canvas.</br> Courtesy Sfeir-Semler Gallery, Beirut and Hamburg
+				</div>
+			</div>
+		</div>
+		<a class="next" href="untitled2018.html">Next</a>
+		<a class="back" href="index.html">Back</a>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/interactjs@1.3/dist/interact.min.js"></script>
+	<script type="text/javascript" src="js/untitled2013.js"></script>
+	<script type="text/javascript" src="js/puzzle.js"></script>
+	<script type="text/javascript"> 
+		console.log(console);
+		$(document).ready(function() {
+			var pieces = ['a', 'f'];
+			for(var index in pieces) {
+				setPiece($('#piece-' + pieces[index]), $('#' + pieces[index]));
+			}
+
+			var unplaced = ['b', 'c', 'd', 'e'];
+			for(var index in unplaced) {
+				setRandomPiece($('#piece-' + unplaced[index]));
+			}
+		});
+	</script>
+</body>
+</html>

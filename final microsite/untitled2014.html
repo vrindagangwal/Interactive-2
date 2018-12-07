@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Untitled (2014)</title>
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/hover-min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/untitled2014.css">
+</head>
+<body>
+	<img class="piece hvr-buzz-out" id="piece-a" src="images/untitled2014/piece-a.png" />
+	<img class="piece hvr-buzz-out" id="piece-b" src="images/untitled2014/piece-b.png" />
+	<img class="piece hvr-buzz-out" id="piece-c" src="images/untitled2014/piece-c.png" /> 
+	<img class="piece hvr-buzz-out" id="piece-d" src="images/untitled2014/piece-d.png" />
+	<img class="piece hvr-buzz-out" id="piece-e" src="images/untitled2014/piece-e.png" />
+	<img class="piece hvr-buzz-out" id="piece-f" src="images/untitled2014/piece-f.png" />
+	<img class="piece hvr-buzz-out" id="piece-g" src="images/untitled2014/piece-g.png" />
+	<div class="container">
+		<div class="media">
+			<div class="dashed puzzle-dashed">
+				<img class="painting" src="images/untitled2014/painting.png" />
+				<div class="puzzle" id="a"></div>
+				<div id="bc" style="display:flex; width:100%">	
+					<div class="puzzle" id="b"></div>
+					<div class="puzzle" id="c"></div>
+				</div>
+				<div class="puzzle" id="d"></div>
+				<div id="ef" style="display:flex; width:100%">	
+					<div class="puzzle" id="e"></div>
+					<div class="puzzle" id="f"></div>
+				</div>
+				<div class="puzzle" id="g"></div>
+			</div>
+		</div>
+		<div class="text">
+			<div class="heading"><a href="#">Untitled <span class="font-year">(2014)</span></a></div>
+			<div class="rect"></div>
+			<div class="content font-index">
+				Bring the pieces together to solve the puzzle and reveal the artwork.
+			</div>
+			<div class="hidden-content">
+				Etel Adnan. Private collection. Courtesy Galerie Claude Lemand, Paris
+			</div>
+		</div>
+	</div>
+	<a class="next" href="untitled2013.html">Next</a>
+	<a class="back" href="index.html">Back</a>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/interactjs@1.3/dist/interact.min.js"></script>
+	<script type="text/javascript" src="js/untitled2014.js"></script>
+	<script type="text/javascript" src="js/puzzle.js"></script>
+	<script type="text/javascript"> 
+		console.log(console);
+		$(document).ready(function() {
+			var pieces = ['c', 'd', 'f'];
+			for(var index in pieces) {
+				setPiece($('#piece-' + pieces[index]), $('#' + pieces[index]));
+			}
+
+			var unplaced = ['a', 'b', 'e', 'g'];
+			for(var index in unplaced) {
+				setRandomPiece($('#piece-' + unplaced[index]));
+			}
+		});
+	</script>
+</body>
+</html>
