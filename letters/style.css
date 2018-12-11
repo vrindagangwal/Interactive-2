@@ -50,7 +50,7 @@ body {
 
 .stage {
 	width: 1120px;
-    background: #13b38c;
+    background: transparent;
     margin: 0 auto;
     position: relative;
     top: 50%;
@@ -58,7 +58,7 @@ body {
 }
 
 .stage-wrapper {
-    background:#13b38c ;
+    background:transparent ;
 }
 
 .bazinga {
